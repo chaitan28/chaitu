@@ -30,7 +30,7 @@ microk8s stop
 ```
 microk8s start
 ``` 
-## Adding worker node 1 to the master
+## step 5 :Adding worker node 1 to the master
 list all the nodes int the cluster , we are not yet attached any worker nodes, it should show only master
 ``` 
 microk8s kubectl get nodes
